@@ -5,6 +5,11 @@ header{
     text-align: center;
     font-size: 3rem;
     color: #EEEEEE;
+    /* position: fixed; */
+    /* width: 100%; */
+}
+header>h1{
+    margin-bottom: 0%;
 }
 body{
     background-color: #EEEEEE;
@@ -35,7 +40,13 @@ body{
     position: relative;
     padding: 3em 0;
     /* background-color: #393E46; */
-    background-image: linear-gradient(70deg,#393E46,#393E46);
+    background-image: url(/images/Developer-Student-Clubs.png);
+    /* background-image: url("https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-preview.jpg"); */
+    /* background-image: linear-gradient(70deg,#393E46,#393E46); */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: 10;
 }
  
 .user-image img{
