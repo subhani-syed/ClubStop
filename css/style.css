@@ -1,12 +1,9 @@
-
 header{
     background-color: #222831;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 3rem;
     color: #EEEEEE;
-    /* position: fixed; */
-    /* width: 100%; */
 }
 header>h1{
     margin-bottom: 0%;
@@ -15,23 +12,15 @@ body{
     background-color: #EEEEEE;
 }
 .head{
-    /* background-color: blue; */
-    /* font-size: larger; */
     font-size: 3rem;
     color: black;
-    /* color: aliceblue; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-.Container>div{
-    /* margin: 3% 0%; */
-    /* padding:; */
-}
+
 
 .Banner{
-    /* margin-top: 0%; */
     background-color:#393E46;
-    /* width: ; */
     height: 30vh;
 }
 
@@ -39,7 +28,6 @@ body{
 .user-image{
     position: relative;
     padding: 3em 0;
-    /* background-color: #393E46; */
     background-image: url(/images/Developer-Student-Clubs.png);
     /* background-image: url("https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-preview.jpg"); */
     /* background-image: linear-gradient(70deg,#393E46,#393E46); */
@@ -60,7 +48,6 @@ body{
 .Logo{
     border-radius: 100%;
     z-index: 1;
-    /* overflow-y: auto; */
     background-color: #222831;
     height: 20vh;
     width: 25vw;
@@ -70,12 +57,9 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-content: space-between; */
-    /* align-content: space-between; */
     margin-top: 3%;
     font-size: larger;
-    /* background-color: #222831; */
-    border-radius: 60px;
+    border-radius: 20px;
 }
 .club-name > h2{
     font-size:x-large;
@@ -88,7 +72,7 @@ body{
 .Description{
     padding: 4%;
     /* padding: auto; */
-    border-radius: 60px;
+    border-radius: 20px;
     background-color: #00ADb5;
     height: auto;
     margin: 3% 0%;
@@ -96,7 +80,7 @@ body{
 .Core-team{
     padding: 4%;
     /* padding: auto; */
-    border-radius: 60px;
+    border-radius: 20px;
     background-color: #393E46;
     height: 40vh;
     height: auto;
@@ -104,7 +88,7 @@ body{
 }
 .Socials{
     padding: 4%;
-    border-radius: 60px;
+    border-radius: 20px;
     background-color: #00ADb5;
     /* height: 40vh; */
     height: auto;
