@@ -8,6 +8,7 @@
 body{
     background-color: #EEEEEE;
 }
+/*
 .club_div{
     margin:2% 0% 5% 0%;
     border-radius: 20px;
@@ -16,10 +17,21 @@ body{
     width: 90vw;
     text-align: center;
 }
+*/
+.club_div{
+    text-align: center; 
+}
+.club_div img{
+    height: 300px;
+    width: 400px;
+}
 .club_div>h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 350;
-    text-align: center;
+    background-color: #00ADb5;
+    width: 400px;
+    border-left: 800px;
+
 }
 .wrapper{
     margin: 0% 3%;
