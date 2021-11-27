@@ -18,7 +18,11 @@ body{
     text-align: center;
 }
 */
+.club_div>h1{
+    margin-top: 0%;
+}
 .club_div{
+    margin: 0% auto;
     text-align: center; 
 }
 .club_div img{
