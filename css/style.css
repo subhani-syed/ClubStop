@@ -1,0 +1,99 @@
+header{
+    background-color: #222831;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color: #EEEEEE;
+}
+header>h1{
+    margin-bottom: 0%;
+}
+body{
+    background-color: #EEEEEE;
+}
+.head{
+    font-size: 3rem;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+.Banner{
+    background-color:#393E46;
+    height: 30vh;
+}
+
+/*  */
+.user-image{
+    position: relative;
+    padding: 3em 0;
+    background-image: url(/images/Developer-Student-Clubs.png);
+    /* background-image: url("https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-preview.jpg"); */
+    /* background-image: linear-gradient(70deg,#393E46,#393E46); */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: 10;
+}
+ 
+.user-image img{
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    box-shadow:  0 0.6em 1.8em ;
+    object-fit: cover;
+}
+/*  */
+.Logo{
+    border-radius: 100%;
+    z-index: 1;
+    background-color: #222831;
+    height: 20vh;
+    width: 25vw;
+}
+.club-name{
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+    font-size: larger;
+    border-radius: 20px;
+}
+.club-name > h2{
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .club-name>*{
+    padding: 0% 10%;
+    display: inline;
+} */
+.Description{
+    padding: 4%;
+    /* padding: auto; */
+    border-radius: 20px;
+    background-color: #00ADb5;
+    height: auto;
+    margin: 3% 0%;
+}
+.Core-team{
+    padding: 4%;
+    /* padding: auto; */
+    border-radius: 20px;
+    background-color: #393E46;
+    height: 40vh;
+    height: auto;
+    margin: 3% 0%;
+}
+.Socials{
+    padding: 4%;
+    border-radius: 20px;
+    background-color: #00ADb5;
+    /* height: 40vh; */
+    height: auto;
+    margin: 3% 0%;
+}
+.Socials>a{
+    text-decoration: none;
+}
