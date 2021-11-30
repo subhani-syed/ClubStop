@@ -85,6 +85,7 @@ body{
     height: 40vh;
     height: auto;
     margin: 3% 0%;
+    text-align: center;
 }
 .Socials{
     padding: 4%;
@@ -96,4 +97,14 @@ body{
 }
 .Socials>a{
     text-decoration: none;
+}
+
+.team-img{
+  width: 50%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
 }
