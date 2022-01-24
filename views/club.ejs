@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClubStop</title>
+</head>
+<body>
+    
+    <h1>Club name is  <%= C_name %> </h1>
+    <h2>Club shortform is <%= C_sf %> </h2>
+    <h3>CLub descripton is <%= C_des %> </h3>
+    <h2>Team details </h2>
+
+    <% team.forEach((member)=>{ %>
+        <h1>Name is <%=member.Name %></h1>
+        <p>Role is <%= member.Role %></p>
+        <br />
+    <%}); %>
+
+
+</body>
+</html>

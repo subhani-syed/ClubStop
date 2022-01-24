@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClubStop|Create Club</title>
+  </head>
+  <body>
+    <h1>Create Your Club</h1>
+    <form action="" id="form">
+      <input type="text" placeholder="Clubname" /><br />
+      <input type="text" placeholder="Club Acronym" /><br />
+      <input type="text" placeholder="Description" /><br />
+        <input type="text" placeholder="Team mate Name" /><br />
+        <input type="text" placeholder="Role" /><br />
+        <button id="addTeamate" onclick="addTeam()">Add Teamate</button>
+      <button type="">Add</button>
+    </form>
+
+    <script>
+        var teammates = 1;
+        function addTeam(){
+            const f = document.getElementById("form");
+            const inp = document.createElement("input");
+            inp.setAttribute('type',"text");
+            inp.setAttribute('placeholder','NAme');
+            const inp2 = document.createElement("input");
+            inp2.setAttribute('type',"text");
+            inp2.setAttribute('placeholder','ROle');
+            f.appendChild(inp);
+            f.appendChild(inp2);
+        }
+    </script>
+  </body>
+</html>
