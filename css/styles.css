@@ -63,3 +63,8 @@ body{
     margin-top: auto;
   }
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
